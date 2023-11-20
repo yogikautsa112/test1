@@ -1,0 +1,7 @@
+@media screen and (max-width : 669px) {
+    article {
+        display: flex;
+        flex: auto;
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,1 @@
+alert ('Hii selamat datang di web sederhana ini hehe' );

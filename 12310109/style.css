@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Quicksand';
+    position: static;
+}
+
+.logo {
+    color: #ffb000;
+    background-color: #090909;
+    padding: 10px;
+    width: auto ;
+    text-align: center;
+    font-size: 20px;
+}
+
+nav {
+    background-color: #1b1b1b;
+    height: 50px;
+    box-shadow: 2px 2px 10px white;
+}
+
+nav ul {
+    display: flex;
+    padding: 10px;
+    padding-top: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+    gap: 1,6rem;
+    flex-direction: row;
+    background-color: #090909;
+    height: 534px;
+}
+
+article {
+    display: flex;
+    height: 300px;
+    position: relative;
+    padding-left: 300px;
+}
+
+article h2{
+    font-size: 50px ;
+    color: #ffb000;
+    margin-top: 215px;
+    border: 1px solid white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px #ffb000;
+    font-weight: bolder;
+    background-color: white;
+    padding-top: 10px;
+}
+
+aside img{
+    margin-left: 250px;
+    margin-top: 100px;
+    box-shadow: 5px 5px 20px #FFB000;
+    overflow: hidden;
+    width: 200px;
+    margin-right: 250px;
+    margin-top: 140px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+aside img:hover {
+    cursor: pointer;
+    background-color: #FFB000;
+    padding: 5px;
+    transition: 1s;
+    border-radius: 2px solid;
+}
+
+footer {
+    color: #ffb000;
+    text-align: center;
+    background-color: #090909;
+}
